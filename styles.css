@@ -1,0 +1,426 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 777px;
+  background-image: linear-gradient(to bottom, rgba(12, 12, 40, 0.8), rgba(12, 12, 40, 0.8)), url('digital-marketing-agency-hero-img-bg.jpg');
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  color: #ffffff;
+  padding: 10px;
+}
+
+.container1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 150px;
+  width: 150px;
+  margin-left: 50px;
+}
+
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+  padding-right: 20px; /* Adjust spacing */
+}
+
+.nav-menu li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 17px;
+  padding: 0 20px; /* Adjust spacing */
+}
+
+.text-content {
+  color: #ffffff;
+  margin-left: 100px;
+  max-width: 600px; /* Limit width for responsiveness */
+}
+
+.overlay-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: auto; /* Adjust width for responsiveness */
+  z-index: 1; /* Move behind other content */
+  opacity: 0.8;
+}
+
+.button {
+  background-color: #1e1e6d;
+  border: none;
+  color: white;
+  padding: 15px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  white-space: nowrap;
+  position: relative;
+  right: 110px; /* Adjust position */
+}
+
+.button1 {
+  background-color: #1e1e6d;
+  border: none;
+  color: white;
+  padding: 15px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+  white-space: nowrap;
+  position: relative;
+  top: 20px; /* Adjust position */
+  left: 100px; /* Adjust position */
+}
+
+.LM {
+  position: relative;
+  top: 20px; /* Adjust position */
+  left: 120px; /* Adjust position */
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .container1 {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .nav-menu {
+      flex-direction: column;
+      align-items: center;
+      padding-right: 0; /* Remove padding */
+  }
+
+  .logo {
+      margin-top: 10px;
+  }
+
+  .nav-menu li a {
+      padding: 15px;
+      
+  }
+
+  .button,
+  .button1,
+  .LM {
+      position: static; /* Reset position */
+      margin: 20px auto; /* Center horizontally */
+  }
+
+  .text-content {
+      margin-left: 0;
+      text-align: center; /* Center text */
+      padding: 0 50px; /* Add padding */
+      max-width: none; /* Remove max-width */
+  }
+}
+
+.fstH {
+  font-size: 18px;
+}
+
+.fstP {
+  font-size: 60px;
+}
+
+.sndP {
+  font-size: 20px;
+}
+
+/* Your existing CSS styles */
+
+/* Add this CSS to style the icon */
+.button i {
+  margin-right: 5px; /* Adjust spacing between icon and text */
+}
+.fa-solid{
+  position: relative;
+  left: 40px;
+}
+
+.WWD{
+  height: 614px;
+  width: 100%;
+  background-color: #e2e2ebde;
+  padding: 104px 40px 64px;
+  
+}
+#FH1{
+  padding-top: 8px 0px 0px;
+  padding-left: 80px;
+  font-size: 16px;
+  font-weight: 600;
+  
+}
+
+#cont1{
+  position: absolute;
+  right: 300px;
+  height: 446px;
+  width: 900px;
+  display: flex;
+  justify-content: center;
+}
+
+#cont1H{
+  height: 134.38;
+  width: 540px;
+  font-size: 56px;
+  color: #26262c;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+#cont1P{
+  position: absolute;
+  height: 79.17px;
+  width: 752px;
+  position: absolute;
+  left: 180px;
+  top: 160px;
+  font-size: large;
+  font-weight: 500;
+  color:#26262cb6 ;
+}
+
+ 
+
+#CC{
+  font-size: 24px;
+  font-weight: 500;
+  width: 270px;
+
+}
+
+#CM{
+  font-size: 24px;
+  font-weight: 500;
+  width: 270px;
+}
+
+#CD{
+  font-size: 24px;
+  font-weight: 500;
+}
+#PC{
+  font-size: 14px;
+}
+#PM{
+  font-size: 14px;
+}
+#PD{
+  font-size: 14px;
+}
+
+.IcI{
+  display: flex;
+  justify-content: space-around;
+  width: 900px;
+  height: 131px;
+  position: absolute;
+  top: 155vh;
+  left: 380px;
+  color:#26262cb6;
+}
+.fa-regular{
+  color: #1e1e6d;
+}
+.fa-brands{
+  color: #1e1e6d;
+}
+
+#HC{
+  color: #26262c;
+}
+.FP{
+  height: 474px;
+  width: 1423px;
+}
+
+
+
+
+
+.background-div {
+  height: 730px;
+  width: 1423px;
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+.our-services-heading {
+  font-size: 16px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: #26262c; /* Updated color */
+}
+
+.take-your-business-heading {
+  font-size: 56px;
+  height: 67.19px;
+}
+
+.additional-paragraph {
+  font-size: 16px;
+  color: #26262cb6; /* Updated color */
+  text-align: center;
+  padding-bottom: 16px;
+  height: 52.78px;
+  width: 720px;
+  margin: 0 auto; /* Center align the paragraph */
+}
+
+.additional-div {
+  background-color: #ffffff;
+  height: 200px; /* Updated height */
+  width: 400px; /* Adjusted width to make them rectangular */
+  margin: 20px;
+  display: inline-block;
+  border-radius: 12px; /* Added border radius */
+  position: relative; /* Added position relative */
+  text-align: left; /* Align text to the left */
+}
+
+.icon {
+  font-size: 48px; /* Set icon size */
+  position: absolute; /* Position the icon */
+  top: 10px; /* Adjusted position */
+  left: 10px; /* Adjusted position */
+  color: #1e1e6d; /* Updated color */
+}
+
+.word-heading {
+  font-size: 24px; /* Set font size */
+  margin-top: 58px; /* Adjusted margin */
+  margin-left: 70px; /* Adjusted margin */
+  line-height: 35px; /* Set line height */
+  text-align: left; /* Align text to the left */
+}
+
+.paragraph {
+  font-size: 16px; /* Set font size */
+  margin-top: 10px; /* Adjusted margin */
+  margin-left: 70px; /* Adjusted margin */
+  line-height: 20px; /* Set line height */
+  text-align: left; /* Align text to the left */
+}
+
+@media screen and (max-width: 1423px) {
+  .background-div {
+      width: 100%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .additional-paragraph {
+      width: 100%;
+  }
+}
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  color: #000;
+  background-color: #f0f0f0;
+}
+.form-wrapper {
+  width: 100%;
+  background-color: #333; /* Changed background color */
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+.form-container {
+  width: 800px; /* Increased width */
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex; /* Added display flex */
+  flex-wrap: wrap; /* Added flex wrap */
+  background-color: #fff; /* Changed background color */
+}
+.form-container h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333; /* Changed text color */
+  flex: 1 1 100%; /* Added flex properties */
+  border-bottom: 1px solid #333; /* Added border bottom */
+  padding-bottom: 10px; /* Added padding bottom */
+}
+.form-container h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #333; /* Changed text color */
+  flex: 1 1 100%; /* Added flex properties */
+  border-bottom: 1px solid #333; /* Added border bottom */
+  padding-bottom: 10px; /* Added padding bottom */
+}
+.form-container label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333; /* Changed text color */
+}
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #333; /* Changed border color */
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #f0f0f0; /* Changed background color */
+  color: #333; /* Changed text color */
+}
+.form-container textarea {
+  height: 150px;
+}
+.form-container input[type="submit"] {
+  background-color: #333; /* Changed background color */
+  color: #fff; /* Changed text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Added media query for responsiveness */
+@media screen and (max-width: 800px) {
+  .form-container {
+      width: 100%; /* Changed width to 100% */
+  }
+  .form-container h2 {
+      flex: 1 1 100%; /* Changed flex properties */
+      border-bottom: none; /* Removed border bottom */
+      padding-bottom: 0; /* Removed padding bottom */
+      margin-bottom: 20px; /* Added margin bottom */
+  }
+}
